@@ -15,5 +15,6 @@ test:
 	docker-compose exec nodejs npm test;
 
 # Stops containers and cleans project
+.PHONY: clean
 clean:
 	docker-compose down -v;
