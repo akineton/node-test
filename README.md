@@ -2,8 +2,8 @@
 Just a simple NodeJS Hello World with a test.
 
 ## Commands
-* npm install
+* make
 
-* npm start
+* make test
 
-* npm test
+* make clean
