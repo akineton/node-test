@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: five-node-test
+    ports:
+      - "7000:80"
